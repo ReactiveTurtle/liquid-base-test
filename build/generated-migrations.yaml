@@ -1,0 +1,45 @@
+databaseChangeLog:
+- changeSet:
+    id: 1666393343508-1
+    author: Lenovo (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: studentPK
+            name: id
+            type: UUID
+        tableName: student
+- changeSet:
+    id: 1666393343508-2
+    author: Lenovo (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: usersPK
+            name: id
+            type: UUID
+        - column:
+            constraints:
+              nullable: false
+            name: email
+            type: VARCHAR(255)
+        - column:
+            constraints:
+              nullable: false
+            name: first_name
+            type: VARCHAR(255)
+        - column:
+            constraints:
+              nullable: false
+            name: last_name
+            type: VARCHAR(255)
+        tableName: users
+

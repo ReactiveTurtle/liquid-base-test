@@ -1,0 +1,3 @@
+rootProject.name = 'liquidbase'
+include 'work'
+

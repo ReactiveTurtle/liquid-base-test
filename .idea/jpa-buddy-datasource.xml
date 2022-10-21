@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="c050ba5b-744d-497f-b4ab-8d980d20f606" name="liquidbase" url="jdbc:postgresql://localhost:5432/liquidbase" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
